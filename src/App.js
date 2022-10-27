@@ -17,7 +17,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>知己のラジオ専用</h1>
+      <h1>知己専用</h1>
       <div className="buttonContainer">
         <button onClick={play1} class="btn1">
           出題
