@@ -36,3 +36,51 @@
     transform: rotate(360deg);
   }
 }
+.buttonContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  font: white;
+  font-size: x-large;
+  width: 50%;
+  height: 200px;
+  box-shadow: -10px 5px 18px 0px rgba(0, 0, 0, 0.71);
+  -webkit-box-shadow: -10px 5px 18px 0px rgba(0, 0, 0, 0.71);
+  -moz-box-shadow: -10px 5px 18px 0px rgba(0, 0, 0, 0.71);
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  -webkit-transform: translateY(4px);
+  transform: translateY(4px);
+  border-bottom: none;
+}
+
+.btn1 {
+  background-color: rgb(242, 119, 119);
+}
+
+.btn2 {
+  background-color: rgb(123, 123, 231);
+}
+
+.btn3 {
+  background-color: rgb(134, 237, 134);
+}
+
+.btn4 {
+  background-color: rgb(300, 200, 119);
+}
+
+.btn5 {
+  background-color: rgb(228, 228, 237);
+}
+
+.btn6 {
+  background-color: rgb(236, 117, 198);
+}
